@@ -14,10 +14,11 @@ namespace Exercise5A_Farm
         {
             //create classes representing types of domestic animals
             //instansiate several objects of each class
-            // woops already decided on four animals
+            // woops already decided on four animals because of starting instructions
             // decide of four or more methods
-            // woops already made method in main to make a farm...
+            // woops again already made method in main to make a farm because of starting instructions
             //make exception handlers for not implemented
+            // woops again again already made animals with names because of starting instructions
             try
             {
                 Farm kansas;
@@ -37,10 +38,12 @@ namespace Exercise5A_Farm
                 MilkCow ElizabethThe3rd;
                 MilkCow Stacey;
 
-                Dog doge;
+                Dog doge = new Dog(1); //implemented Doge
                 Dog lassie;
                 Dog rinTinTin;
                 Dog balto;
+
+                doge.Speak();
             }
             catch (NotImplementedException)
             {
