@@ -14,7 +14,8 @@ namespace Exercise5A_Farm
         {
             //create classes representing types of domestic animals
             //instansiate several objects of each class
-
+            // woops already decided on four animals
+            // decide of four or more methods
             Farm kansas;
 
             Chicken MrClucks;
