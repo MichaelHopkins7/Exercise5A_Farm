@@ -16,29 +16,36 @@ namespace Exercise5A_Farm
             //instansiate several objects of each class
             // woops already decided on four animals
             // decide of four or more methods
-            Farm kansas;
+            // woops already made method in main to make a farm...
+            //make exception handlers for not implemented
+            try
+            {
+                Farm kansas;
 
-            Chicken MrClucks;
-            Chicken MrsClucks;
-            Chicken ClucksJunior;
-            Chicken Cluckette;
+                Chicken MrClucks;
+                Chicken MrsClucks;
+                Chicken ClucksJunior;
+                Chicken Cluckette;
 
-            Sheep MrSmithSmithson;
-            Sheep MrsSmithson;
-            Sheep MrJohnJohnson;
-            Sheep MrsJohnson;
+                Sheep MrSmithSmithson;
+                Sheep MrsSmithson;
+                Sheep MrJohnJohnson;
+                Sheep MrsJohnson;
 
-            MilkCow ElizabethThe1st;
-            MilkCow ElizabethThe2nd;
-            MilkCow ElizabethThe3rd;
-            MilkCow Stacey;
+                MilkCow ElizabethThe1st;
+                MilkCow ElizabethThe2nd;
+                MilkCow ElizabethThe3rd;
+                MilkCow Stacey;
 
-            Dog doge;
-            Dog lassie;
-            Dog rinTinTin;
-            Dog balto;
-
-            
+                Dog doge;
+                Dog lassie;
+                Dog rinTinTin;
+                Dog balto;
+            }
+            catch (NotImplementedException)
+            {
+                Console.WriteLine("Not Implemented.");
+            }
         }
     }
     
