@@ -19,6 +19,7 @@ namespace Exercise5A_Farm
             // woops again already made method in main to make a farm because of starting instructions
             //make exception handlers for not implemented
             // woops again again already made animals with names because of starting instructions
+            // make Speak() for each animal type
             try
             {
                 Farm kansas;
