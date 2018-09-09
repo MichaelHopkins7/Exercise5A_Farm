@@ -40,11 +40,29 @@ namespace Exercise5A_Farm
                 MilkCow Stacey;
 
                 Dog doge = new Dog(1); //implemented Doge
-                Dog lassie;
-                Dog rinTinTin;
-                Dog balto;
+                Dog lassie = new Dog(2);
+                Dog rinTinTin = new Dog(3);
+                Dog balto = new Dog(4);
 
                 doge.Speak();
+                doge.Make();
+                doge.Does();
+                doge.BreedIs();
+
+                lassie.Speak();
+                lassie.Make();
+                lassie.Does();
+                lassie.BreedIs();
+
+                rinTinTin.Speak();
+                rinTinTin.Make();
+                rinTinTin.Does();
+                rinTinTin.BreedIs();
+
+                balto.Speak();
+                balto.Make();
+                balto.Does();
+                balto.BreedIs();
             }
             catch (NotImplementedException)
             {

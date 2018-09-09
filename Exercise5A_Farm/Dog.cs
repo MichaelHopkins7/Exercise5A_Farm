@@ -23,7 +23,7 @@ namespace Exercise5A_Farm
             {
                 case 1:
                 {
-                    dogSays = "Doge says \"WOW!\"";
+                    dogSays = "Doge says \"WOW!\".";
                     dogMakes = "Doge makes memes.";
                     dogDoes = "Doge butchers the english language.";
                     dogBreedIs = "Doge is such Shiba, very Inu.";
@@ -31,7 +31,7 @@ namespace Exercise5A_Farm
                 }
                 case 2:
                 {
-                    dogSays = "Lassie says \"Bark!(Timmy is in the well!\"";
+                    dogSays = "Lassie says \"Bark!(Timmy is in the well!\").";
                     dogMakes = "Lassie makes TV shows and movies.";
                     dogDoes = "Lassie gets help when Timmy falls in the well.";
                     dogBreedIs = "Lassie is a Rough Collie.";
@@ -39,7 +39,7 @@ namespace Exercise5A_Farm
                 }
                 case 3:
                 {
-                    dogSays = "Rin Tin Tin says \"Bark! Bark!\"";
+                    dogSays = "Rin Tin Tin says \"Bark! Bark!\".";
                     dogMakes = "Rin Tin Tin made a hit movie that contributed to Warner Bros. success.";
                     dogDoes = "Rin Tin Tin made german shepards more popular dogs in the US.";
                     dogBreedIs = "Rin Tin Tin was a German Shepard.";
@@ -47,7 +47,7 @@ namespace Exercise5A_Farm
                 }
                 case 4:
                 {
-                    dogSays = "Balto sayd \"Woof!\"";
+                    dogSays = "Balto sayd \"Woof!\".";
                         dogMakes = "Balto makes life saving deliveries of medicine";
                         dogDoes = "Balto lead his dog team successfully through a whiteout blizzard at night.";
                         dogBreedIs = "Balto is a Siberian Husky";
