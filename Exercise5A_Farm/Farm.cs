@@ -4,20 +4,62 @@
     {
         public Farm()
         {
-            Chicken mrClucks;
-            Chicken mrsClucks;
-            Chicken ladyCluckington;
-            Chicken cluckette;
+            Chicken mrClucks = new Chicken("Mr. Clucks", true);
+            Chicken mrsClucks = new Chicken("Mrs. Clucks", false);
+            Chicken ladyCluckington = new Chicken("Lady Cluckington", false);
+            Chicken cluckette = new Chicken("Cluckette", false);
 
-            Sheep mrSmithSmithson;
-            Sheep mrsSmithson;
-            Sheep mrJohnJohnson;
-            Sheep mrsJohnson;
+            mrClucks.Speak();
+            mrClucks.Eats();
+            mrClucks.Produces();
+            mrClucks.Makes();
+
+            mrsClucks.Speak();
+            mrsClucks.Eats();
+            mrsClucks.Produces();
+            mrsClucks.Makes();
+
+            ladyCluckington.Speak();
+            ladyCluckington.Eats();
+            ladyCluckington.Produces();
+            ladyCluckington.Makes();
+
+            cluckette.Speak();
+            cluckette.Eats();
+            cluckette.Produces();
+            cluckette.Makes();
+
+            Sheep mrSmithSmithson = new Sheep();
+            Sheep mrsSmithson = new Sheep();
+            Sheep mrJohnJohnson = new Sheep();
+            Sheep mrsJohnson = new Sheep();
+
+            mrSmithSmithson.Eats();
+            mrSmithSmithson.Speak();
+            mrSmithSmithson.Produces();
+            mrSmithSmithson.Makes();
+
+            mrsSmithson.Eats();
+            mrsSmithson.Speak();
+            mrsSmithson.Produces();
+            mrsSmithson.Makes();
+
+            mrJohnJohnson.Eats();
+            mrJohnJohnson.Speak();
+            mrJohnJohnson.Produces();
+            mrJohnJohnson.Makes();
+
+            mrsJohnson.Eats();
+            mrsJohnson.Speak();
+            mrsJohnson.Produces();
+            mrsJohnson.Makes();
 
             MilkCow elizabethThe1st;
             MilkCow elizabethThe2nd;
             MilkCow elizabethThe3rd;
             MilkCow stacey;
+
+
 
             Dog doge = new Dog(1); //implemented Doge
             Dog lassie = new Dog(2);
