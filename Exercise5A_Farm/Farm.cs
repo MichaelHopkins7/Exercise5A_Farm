@@ -54,12 +54,30 @@
             mrsJohnson.Produces();
             mrsJohnson.Makes();
 
-            MilkCow elizabethThe1st;
-            MilkCow elizabethThe2nd;
-            MilkCow elizabethThe3rd;
-            MilkCow stacey;
+            MilkCow elizabethThe1st = new MilkCow();
+            MilkCow elizabethThe2nd = new MilkCow();
+            MilkCow elizabethThe3rd = new MilkCow();
+            MilkCow stacey = new MilkCow();
 
+            elizabethThe1st.Eats();
+            elizabethThe1st.Speak();
+            elizabethThe1st.Produces();
+            elizabethThe1st.Makes();
 
+            elizabethThe2nd.Eats();
+            elizabethThe2nd.Speak();
+            elizabethThe2nd.Produces();
+            elizabethThe2nd.Makes();
+
+            elizabethThe3rd.Eats();
+            elizabethThe3rd.Speak();
+            elizabethThe3rd.Produces();
+            elizabethThe3rd.Makes();
+
+            stacey.Eats();
+            stacey.Speak();
+            stacey.Produces();
+            stacey.Makes();
 
             Dog doge = new Dog(1); //implemented Doge
             Dog lassie = new Dog(2);

@@ -22,8 +22,7 @@ namespace Exercise5A_Farm
             // make Speak() for each animal type
             try
             {
-                Farm kansas;
-
+                Farm kansas = new Farm();
                 
             }
             catch (NotImplementedException)
